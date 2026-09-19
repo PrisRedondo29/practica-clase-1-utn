@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+    <id>INV-INVALID-001</id>
+    <date>2024-01-10</date>
+    <items>
+        <item>
+            <description>Wrong Item</description>
+            <unitPrice>100.00</unitPrice>
+            <quantity>2</quantity>
+            <lineTotal>200.00</lineTotal>
+        </item>
+    </items>
+    <totalAmount>999.99</totalAmount>
+</invoice>

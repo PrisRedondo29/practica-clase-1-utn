@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+    <id>INV-2024-001</id>
+    <date>2024-01-15</date>
+    <items>
+        <item>
+            <description>Professional Consulting Services</description>
+            <unitPrice>150.00</unitPrice>
+            <quantity>10</quantity>
+            <lineTotal>1500.00</lineTotal>
+        </item>
+        <item>
+            <description>Software License (Annual)</description>
+            <unitPrice>500.00</unitPrice>
+            <quantity>1</quantity>
+            <lineTotal>500.00</lineTotal>
+        </item>
+        <item>
+            <description>Technical Support (Monthly)</description>
+            <unitPrice>200.00</unitPrice>
+            <quantity>1</quantity>
+            <lineTotal>200.00</lineTotal>
+        </item>
+    </items>
+    <totalAmount>2200.00</totalAmount>
+</invoice>

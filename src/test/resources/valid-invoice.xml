@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+    <id>INV-TEST-001</id>
+    <date>2024-01-10</date>
+    <items>
+        <item>
+            <description>Test Item 1</description>
+            <unitPrice>100.00</unitPrice>
+            <quantity>2</quantity>
+            <lineTotal>200.00</lineTotal>
+        </item>
+        <item>
+            <description>Test Item 2</description>
+            <unitPrice>50.00</unitPrice>
+            <quantity>3</quantity>
+            <lineTotal>150.00</lineTotal>
+        </item>
+    </items>
+    <totalAmount>350.00</totalAmount>
+</invoice>
