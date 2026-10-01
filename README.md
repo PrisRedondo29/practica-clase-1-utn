@@ -56,20 +56,15 @@ Migrar el proyecto desde **Java 7 a Java 21 LTS**, resolviendo la incompatibilid
 
 - **Compilar:**
   ```powershell
-  .\mvnw.cmd clean compile
+  mvn clean compile
   ```
 - **Ejecutar Tests:**
   ```powershell
-  .\mvnw.cmd test
+  mvn test
   ```
 - **Ejecutar la aplicación por línea de comandos:**
   ```powershell
-  .\mvnw.cmd exec:java -Dexec.mainClass="com.legacy.invoice.InvoiceProcessor" -Dexec.args="src/main/resources/sample-invoice.xml"
+  mvn exec:java -Dexec.mainClass="com.legacy.invoice.InvoiceProcessor" -Dexec.args="src/main/resources/sample-invoice.xml"
   ```
 
 ---
-
-## 📖 Documentación y Guías
-
-- Consulta [`docs/GUIA_DOCENTE_CLASE_1.md`](docs/GUIA_DOCENTE_CLASE_1.md) para ver la guía didáctica de la clase, el flujo paso a paso y los prompts recomendados para interactuar con la IA.
-- Consulta [`docs/MIGRATION_LOG.md`](docs/MIGRATION_LOG.md) para registrar y revisar la bitácora técnica de cambios.
